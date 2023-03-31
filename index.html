@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/form-newsletter.css">
 </head>
 
 <body>
@@ -36,10 +37,10 @@
     </main>
 
     <footer class="rodape">
-        <section>
+        <section class="rodape__secao rodape__secao--sobre">
             <img class="rodape__logo" src="img/logo.svg" alt="Logo da MusicDot">
 
-            <p>
+            <p class="rodape__infos-empresa">
                 AOVS Sistemas de Informática S.A.<br>
                 CNPJ 05.555.382/0001-33<br>
                 Rua Vergueiro - São Paulo/SP<br>
@@ -64,7 +65,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="rodape__secao rodape__secao--cursos">
             <h2 class="rodape__titulo"> Cursos da MusicDot </h2>
             <nav>
                 <ul>
@@ -80,64 +81,38 @@
                     <li class="rodape_item-lista"><a href="#">Cursos de Cordas</a></li>
                 </ul>
             </nav>
-        </section>
-        <section>
-            <h2 class="rodape__titulo"> MusicDot </h2>
-            <nav>
-                <ul>
-                    <li class="rodape_item-lista"><a href="#">Apostila</a></li>
-                    <li class="rodape_item-lista"><a href="#">E-book</a></li>
-                    <li class="rodape_item-lista"><a href="#">Login</a></li>
-                    <li class="rodape_item-lista"><a href="#">Matricule-se</a></li>
-                    <li class="rodape_item-lista"><a href="#">Perguntas frequentes</a></li>
-                    <li class="rodape_item-lista"><a href="#">Para Escolas</a></li>
-                    <li class="rodape_item-lista"><a href="#">Contato</a></li>
-            </nav>
-        </section>
+            </section>
+            <section class="rodape__secao rodape__secao--links">
+                <h2 class="rodape__titulo"> MusicDot </h2>
+                <nav>
+                    <ul>
+                        <li class="rodape_item-lista"><a href="#">Apostila</a></li>
+                        <li class="rodape_item-lista"><a href="#">E-book</a></li>
+                        <li class="rodape_item-lista"><a href="#">Login</a></li>
+                        <li class="rodape_item-lista"><a href="#">Matricule-se</a></li>
+                        <li class="rodape_item-lista"><a href="#">Perguntas frequentes</a></li>
+                        <li class="rodape_item-lista"><a href="#">Para Escolas</a></li>
+                        <li class="rodape_item-lista"><a href="#">Contato</a></li>
+                </nav>
+            </section>
 
+            <section class="rodape__secao rodape__secao--newsletter">
+                <h2 class="rodape__titulo">
+                    Receba novidades e lançamentos
+                </h2>
 
+                <form action="#" method="get" class="form-newsletter">
+                    <label for="form-newsletter__label" class="form-newsletter__label">
+                        Seu email pessoal
+                    </label>
+                    <input id="email-newsletter" name="email-newsletter" type="email" class="form-newsletter__campo">
+                    <button type="submit" class="form-newsletter__botao">
+                        OK
+                    </button>
+                </form>
+
+            </section>
     </footer>
-
-</body>
-
-</html>
-
-
-<h1> MusicDot </h1>
-<h2>Bem-vindo à MusicDot, seu portal de cursos de música online.</h2>
-<ul>
-    <li>Confira nossas promoções.</li>
-    <li>Receba informações sobre nossos lançamentos por email.</li>
-    <li>Navegue por todos nossos cursos disponíveis.</li>
-    <li>Aprenda sem sair de casa.</li>
-</ul>
-
-<p>Agora, uma página muito mais agradável e legível é exibida. Para isso, tivemos que adicionar as marcações que
-    são
-    pertencentes ao HTML. Essas marcações são chamadas de tags, e elas basicamente dão uma representação ao
-    texto
-    contido entre sua abertura e fechamento.</p>
-
-<p>Apesar de estarem corretamente marcadas, as informações não apresentam pouco ou nenhum atrativo estético e,
-    nessa
-    <b> deficiência do HTML</b>, reside o primeiro e maior desafio de pessoas que desenvolvem para front-end.
-</p>
-<p>O HTML (Hypertext Markup Language) ou linguagem de marcação de hipertexto foi desenvolvido para suprir a
-    necessidade exibição de documentos científicos fornecidos por uma rede de Internet. Para termos uma
-    comparação,
-    é como se a Web fosse desenvolvida para exibir monografias redigidas e formatadas pela Metodologia do
-    Trabalho
-    Científico da ABNT. Porém, com o tempo e a evolução da Web e de seu potencial comercial, tornou-se
-    necessária a
-    exibição de informações com grande riqueza de elementos gráficos e de interação.</p>
-<p>Começaremos por partes, primeiro entenderemos como o HTML funciona, para depois aprendermos estilos,
-    elementos
-    gráficos e interações.</p>
-
-
-
-
-
 
 </body>
 
