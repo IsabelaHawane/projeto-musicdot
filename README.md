@@ -1,2 +1,2 @@
 # projeto-musicdot
-ifrj trc331
+Apenas um projeto que estou fazendo para desenvolvimento e aprendizado.
